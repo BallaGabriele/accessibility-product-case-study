@@ -1,0 +1,52 @@
+name: Accessibility or documentation feedback
+description: Report a documentation issue, accessibility concern, correction, or research question.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or observation
+      description: What did you notice?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Where does it occur, and who or what may be affected? Do not include identifying or sensitive personal details.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior or improvement
+      description: What would be clearer, more usable, or more accurate?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to relevant documentation, code, or other non-sensitive evidence.
+    validations:
+      required: false
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility considerations
+      description: Which access needs or interaction contexts should be considered?
+    validations:
+      required: false
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Proposed next step
+      description: What focused action could address the concern?
+    validations:
+      required: false
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation needed
+      description: What review, testing, or participatory input would be needed?
+    validations:
+      required: false
